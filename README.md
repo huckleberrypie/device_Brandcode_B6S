@@ -10,7 +10,7 @@ GPU     | ARM Mali-400 MP2
 Memory  | 1GB RAM
 Shipped Android Version | 5.1
 Storage | 16GB
-Display | 4" 480x800 px
+Display | 4" 320x480 px
 Camera  | 5MPx rear, 2MPx front
 
 * Compilation
@@ -28,7 +28,6 @@ Camera  | 5MPx rear, 2MPx front
 If done correctly, you should end up with a recovery.img in `/out/target/product/B6S`.
 
 ## Issues/Caveats
-* NVRAM, boot, recovery, LK and logo partitions need to be declared on boardconfig, but I don't own the phone atm (being it is incredibly obscure and available only in Indonesia as far as this variant goes; rebadges certainly exist though), so I can't just do a blind build and call it a day.
 * Does OTG or ADB work?
 
 ## Downloads
